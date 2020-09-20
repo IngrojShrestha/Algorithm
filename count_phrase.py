@@ -38,6 +38,6 @@ def count_phrase_occurences(document, phrase):
             extracted_phrase = extracted_phrase.rstrip(delimiter)
         
         #compare new extracted phrase with the given phrase
-        if phrase == extracted_phrase:
+        if extracted_phrase == phrase:
             count+=1
     return count
